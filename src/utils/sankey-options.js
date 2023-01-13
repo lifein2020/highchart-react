@@ -4,17 +4,17 @@ export const options = {
     //     text: 'Задача 1. Наша команда проводит исследование для службы безопасности леса. Нарисуй такую же диаграмму, иcпользуя Highcharts',
     //     align: 'left',
     //     // The position of the title relative to the chart
-    //     margin: 59,
-    //     //The x position of the title relative to the alignment within chart.spacingLeft and chart.spacingRight.
-    //     x: 20,
-    //     style: {
-    //         'fontFamily': '\'Inter\', sans-serif', // \'Lucida Sans Unicode\', Verdana, Arial, Helvetica,
-    //         'fontStyle': 'normal',
-    //         'fontWeight': 400,
-    //         'fontSize': '12px',
-    //         'lineHeight': '15px',
-    //          color: '#FFFFFF',
-    //     },
+        // margin: 59,
+        // //The x position of the title relative to the alignment within chart.spacingLeft and chart.spacingRight.
+        // x: 20,
+        // style: {
+        //     'fontFamily': '\'Inter\', sans-serif', // \'Lucida Sans Unicode\', Verdana, Arial, Helvetica,
+        //     'fontStyle': 'normal',
+        //     'fontWeight': 400,
+        //     'fontSize': '12px',
+        //     'lineHeight': '15px',
+        //      color: '#FFFFFF',
+        // },
     // },
     chart: {
         backgroundColor: '#242427',
