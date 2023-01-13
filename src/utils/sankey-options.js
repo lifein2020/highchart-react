@@ -36,6 +36,7 @@ export const options = {
     series: [
       {
         type: 'sankey',
+        cursor: 'pointer',
         // backgroundColor: '#4E4E4E',
         colors: [
           '#979797',

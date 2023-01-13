@@ -25,12 +25,35 @@ export const options = {
     },
 
     plotOptions: {
-      series: {
-        dataLabels: {
-          enabled: true,
-          format: '{point.y:.1f}%',
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '{point.y:.1f}%',
+                // connector line from diagram to dataLabels
+                alignTo: 'connectors', // plotEdges
+                connectorShape : 'straight',
+                connectorWidth: 1,
+                connectorColor: '#FFFFFF',
+                // distance: 2,
+                // position: 'center'
+            },
+            showInLegend: true,
+            size: '80',
+            startAngle: 21, // The start angle of the pie slices in degrees
+            //thickness: 26// Thickness describing the ring size for a donut type chart, overriding innerSize.
+            style: {
+                'fontFamily': '\'Inter\', Arial, Helvetica, sans-serif',
+                'fontStyle': 'normal',
+                'fontWeight': 400,
+                'fontSize': '30px',
+                'lineHeight': '15px',
+            },
         },
-      }
+        legend: {
+            labelFormat: '{point.name}',
+        }
     },
 
     tooltip: {
