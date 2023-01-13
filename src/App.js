@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import SankeyChart from './components/SankeyChart/SankeyChart';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => {
+  return <div className='wrapper'>
+    <div className="card">
+      <h1 className="title">Задача 1. Наша команда проводит исследование для службы безопасности леса. Нарисуй такую же диаграмму, иcпользуя Highcharts</h1>
+      <div className='chart'>
+        <SankeyChart />
+      </div>
     </div>
-  );
+
+    <div className="card">
+      <h1 className="title">Задача 2. Наша команда изучает влияние криптовалют на неокрепший разум молодых людей в Омске.<br />Нарисуй такую же диаграмму, иcпользуя Highcharts</h1>
+      <div className='chart'>
+        {/* <Chart /> */}
+      </div>
+    </div>
+  </div>
 }
 
 export default App;

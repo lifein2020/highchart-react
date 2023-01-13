@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Inter-Regular.ttf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  gap: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  margin-bottom: 30px;
+  width: 570px;
+  height: 339px;
+  background-color: #4E4E4E;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  padding: 20px 55px 59px 31px;
+  color: #FFFFFF;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.chart {
+  margin: auto;
+  width: 296px;
+  /* width: 51.93%; */
+  /* height: 181px;*/
 }
