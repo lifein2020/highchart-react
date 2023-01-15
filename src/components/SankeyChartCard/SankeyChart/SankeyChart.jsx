@@ -1,5 +1,5 @@
 import React from 'react';
-import { options } from "./../../utils/sankey-options";
+import { options } from "./sankey-options";
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import sankey from 'highcharts/modules/sankey.js';

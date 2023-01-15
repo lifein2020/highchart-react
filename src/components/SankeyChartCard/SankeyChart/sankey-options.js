@@ -19,8 +19,9 @@ export const options = {
     chart: {
         backgroundColor: '#242427',
         height: '63.79%', //181,
+        margin: [27, 13, 23],
         style: {
-            'fontFamily': '\'Inter\', sans-serif', // \'Lucida Sans Unicode\', Verdana, Arial, Helvetica,
+            'fontFamily': '\'Inter\', Arial, Helvetica, sans-serif',
             'fontStyle': 'normal',
             'fontWeight': 400,
             'fontSize': '12px',
@@ -37,7 +38,6 @@ export const options = {
       {
         type: 'sankey',
         cursor: 'pointer',
-        // backgroundColor: '#4E4E4E',
         colors: [
           '#979797',
           '#8B75BA',
@@ -45,9 +45,10 @@ export const options = {
           '#7EB8BF',
           '#77954D',
         ],
+        //https://api.highcharts.com/class-reference/Highcharts.GradientColorObject#stops
         // Linear gradient used as a color option
         color: {
-          linearGradient: { x1: 0, x2: 0, y1: 0, y2: 1 },
+          linearGradient: { x1: 0, x2: 0, y1: 0, y2: 100 },
           stops: [
             [1, '#979797'], // start
             //[0.5, '#ffffff'], // middle
@@ -65,19 +66,19 @@ export const options = {
           ],
   
           stops: [
-            [1, '#77954D'], // start
+            [0, '#77954D'], // start
             //[0.5, '#ffffff'], // middle
-            [0, '#8B75BA'] // end
+            [1, '#8B75BA'] // end
           ],
           stops: [
-            [1, '#77954D'], // start
+            [0, '#77954D'], // start
             //[0.5, '#ffffff'], // middle
-            [0, '#DDAFD3'] // end
+            [1, '#DDAFD3'] // end
           ],
           stops: [
-            [1, '#77954D'], // start
+            [0, '#77954D'], // start
             //[0.5, '#ffffff'], // middle
-            [0, '#7EB8BF'] // end
+            [1, '#7EB8BF'] // end
           ],
         },
         keys: ['from', 'to', 'weight'],
@@ -95,9 +96,6 @@ export const options = {
         // names of nodes
         dataLabels: {
           style: {
-            'fontFamily': '\'Inter\', sans-serif', // \'Lucida Sans Unicode\', Verdana, Arial, Helvetica,
-            'fontStyle': 'normal',
-            'fontWeight': 400,
             'fontSize': '10px',
             'lineHeight': '12.1px',
             color: '#FFFFFF',

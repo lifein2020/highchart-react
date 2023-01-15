@@ -19,7 +19,8 @@
 }
 
 .title {
-  padding: 20px 55px 59px 31px;
+  padding: 20px 55px 0 31px;
+  /* padding: 20px 55px 59px 31px; */
   color: #FFFFFF;
   text-align: left;
   font-family: 'Inter', sans-serif;

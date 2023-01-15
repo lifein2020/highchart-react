@@ -1,0 +1,25 @@
+.card {
+    width: 570px;
+    height: 339px;
+    background-color: #4E4E4E;
+  }
+  
+  .title {
+    margin: 0;
+    /* padding: 20px 75px 32.28px 31px; */
+    padding: 20px 75px 0 31px;
+    color: #FFFFFF;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+    .chartContainer {
+      /* margin: 0 auto 47.8px;
+      width: 300.99px; */
+      /* width: 53%; */
+      /* margin: 0 132px 47.8px 137px; */
+      margin: 0 110px 0 110px;
+    }
