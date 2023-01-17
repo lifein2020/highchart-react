@@ -25,7 +25,7 @@ export const options = {
       colors: ['#979797', '#8B75BA', '#DDAFD3', '#7EB8BF', '#77954D'],
       colorAxis: 0,
       colorByPoint: true,
-      keys: ['from', 'to', 'weight'],
+      keys: ['from', 'to', 'weight', "color"],
       data: [
         [
           "Медведи<br>65%",
