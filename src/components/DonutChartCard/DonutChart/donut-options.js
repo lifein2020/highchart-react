@@ -94,7 +94,7 @@ export const options = {
       borderWidth: 0,
       center: ["50%", "50%"],
       colors: ['#77954D', '#979797'],
-      size: 155.76, //'100%',
+      size: 155.76,
       innerSize: '78%',
     }
   ],

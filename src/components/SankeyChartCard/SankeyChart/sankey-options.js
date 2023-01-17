@@ -5,11 +5,11 @@ export const options = {
     height: '63.79%',
     margin: [27, 13, 23],
     style: {
-      'fontFamily': '\'Inter\', Arial, Helvetica, sans-serif',
-      'fontStyle': 'normal',
-      'fontWeight': 400,
-      'fontSize': '12px',
-      'lineHeight': '15px',
+      fontFamily: '\'Inter\', Arial, Helvetica, sans-serif',
+      fontStyle: 'normal',
+      fontWeight: 400,
+      fontSize: '12px',
+      lineHeight: '15px',
       color: '#FFFFFF',
     },
   },
@@ -106,14 +106,15 @@ export const options = {
       // names of nodes
       dataLabels: {
         style: {
-          'fontSize': '10px',
-          'lineHeight': '12.1px',
+          fontFamily: '\'Inter\', Arial, Helvetica, sans-serif',
+          fontStyle: 'normal',
+          fontWeight: 400,
+          fontSize: '10px',
+          lineHeight: '12.1px',
           color: '#FFFFFF',
           textOutline: false
         }
       },
-      linkOpacity: 1, //Opacity for the links
-      opacity: 0.8, //Opacity for the nodes
       nodeWidth: 15, // The pixel width of each node in a sankey diagram
     }
   ]
