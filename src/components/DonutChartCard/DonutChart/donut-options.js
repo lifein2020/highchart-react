@@ -2,7 +2,7 @@ export const options = {
   chart: {
     type: 'pie',
     backgroundColor: '#4E4E4E',
-    height: '72%', // 193.92, 
+    height: '72%',
     padding: 0,
     marginTop: 32.28,
     marginBottom: 47.8,
@@ -69,37 +69,8 @@ export const options = {
       showInLegend: true,
       size: '80',
       startAngle: 158, // The start angle of the pie slices in degrees
-      //thickness: 26// Thickness describing the ring size for a donut type chart, overriding innerSize.
     },
   },
-
-
-  // legend: {
-  //   enabled: true,
-  //   accessibility: {
-  //     enabled: true,
-  //   },
-  //   labelFormat: '{point.name}',
-  //   // borderWidth: 100,
-  //   // borderColor: '#FFFFFF',
-  //   style: {
-  //     'fontSize': '18px',
-  //     'lineHeight': '15px',
-  //   },
-  //   margin: 23.49,
-  //   align: 'center',
-  //   alignColumns: false,
-
-  //   // labelFormat: '<span style="font-size:12px">{point.name}</span>',
-  //   // borderRadius: 14.67,
-  //   // backgroundColor: '#77954D',
-  //   itemCheckboxStyle: {
-  //     "width": "14.67px", "height": "14.67px", "position": "absolute"
-  //   },
-  //   itemDistance: 17.7,
-  //   // itemMarginBottom: 48.98,
-  // },
-
 
   tooltip: {
     headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
