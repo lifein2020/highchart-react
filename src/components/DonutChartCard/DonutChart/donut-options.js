@@ -7,9 +7,9 @@ export const options = {
     marginTop: 32.28,
     marginBottom: 47.8,
     style: {
-      'fontFamily': '\'Inter\', Arial, Helvetica, sans-serif',
-      'fontStyle': 'normal',
-      'fontWeight': 400,
+      fontFamily: "'Inter', Arial, Helvetica, sans-serif",
+      fontStyle: 'normal',
+      fontWeight: 400,
       color: '#FFFFFF',
     },
   },
@@ -20,8 +20,8 @@ export const options = {
     verticalAlign: 'middle',
     y: 4,
     style: {
-      'fontSize': '30px',
-      'lineHeight': '10px',
+      fontSize: '30px',
+      lineHeight: '10px',
       color: '#FFFFFF',
     },
   },
@@ -33,8 +33,8 @@ export const options = {
     x: 139,
     y: 24,
     style: {
-      'fontSize': '12px',
-      'lineHeight': '15px',
+      fontSize: '12px',
+      lineHeight: '15px',
       color: '#FFFFFF',
     },
   },
@@ -56,11 +56,11 @@ export const options = {
         enabled: true,
         format: '{point.y:.1f}%',
         style: {
-          'fontSize': '18px',
-          'lineHeight': '15px',
+          fontSize: '18px',
+          lineHeight: '15px',
         },
         // connector line from diagram to dataLabels
-        alignTo: 'connectors', // plotEdges
+        alignTo: 'connectors',
         connectorShape: 'straight',
         connectorWidth: 1,
         connectorColor: '#FFFFFF',
@@ -119,19 +119,12 @@ export const options = {
           name: 'Не зашифровано',
           y: 38,
         },
-
       ],
       borderWidth: 0,
       center: ["50%", "50%"],
-      colors: [
-        '#77954D',
-        '#979797',
-        
-      ],
+      colors: ['#77954D', '#979797'],
       size: 155.76, //'100%',
       innerSize: '78%',
     }
   ],
-
-
-}
+};

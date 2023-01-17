@@ -1,7 +1,6 @@
 import React from 'react';
 import { options } from "./donut-options";
 import Highcharts from 'highcharts';
-// import HighchartsReact from 'highcharts-react-official';
 import PieChart from "highcharts-react-official";
 
 const DonutChart = () => {

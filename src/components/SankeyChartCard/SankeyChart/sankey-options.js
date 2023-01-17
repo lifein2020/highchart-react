@@ -38,58 +38,84 @@ export const options = {
       {
         type: 'sankey',
         cursor: 'pointer',
-        colors: [
-          '#979797',
-          '#8B75BA',
-          '#DDAFD3',
-          '#7EB8BF',
-          '#77954D',
-        ],
-        //https://api.highcharts.com/class-reference/Highcharts.GradientColorObject#stops
-        // Linear gradient used as a color option
-        color: {
-          linearGradient: { x1: 0, x2: 0, y1: 0, y2: 100 },
-          stops: [
-            [1, '#979797'], // start
-            //[0.5, '#ffffff'], // middle
-            [0, '#8B75BA'] // end
-          ],
-          stops: [
-            [1, '#979797'], // start
-            //[0.5, '#ffffff'], // middle
-            [0, '#DDAFD3'] // end
-          ],
-          stops: [
-            [1, '#979797'], // start
-            //[0.5, '#ffffff'], // middle
-            [0, '#7EB8BF'] // end
-          ],
-  
-          stops: [
-            [0, '#77954D'], // start
-            //[0.5, '#ffffff'], // middle
-            [1, '#8B75BA'] // end
-          ],
-          stops: [
-            [0, '#77954D'], // start
-            //[0.5, '#ffffff'], // middle
-            [1, '#DDAFD3'] // end
-          ],
-          stops: [
-            [0, '#77954D'], // start
-            //[0.5, '#ffffff'], // middle
-            [1, '#7EB8BF'] // end
-          ],
-        },
+        colors: ['#979797', '#8B75BA', '#DDAFD3', '#7EB8BF', '#77954D'],
+        colorAxis: 0,
+        colorByPoint: true,
         keys: ['from', 'to', 'weight'],
         data: [
-          ['Медведи<br>65%', 'Мёд<br>50%', 35],
-          ['Медведи<br>65%', 'Малина<br>20%', 8],
-          ['Медведи<br>65%', 'Яблоки<br>30%', 15],
-          
-          ['Ежи<br>35%', 'Мёд<br>50%', 15],
-          ['Ежи<br>35%', 'Малина<br>20%', 12],
-          ['Ежи<br>35%', 'Яблоки<br>30%', 15],
+          [
+            "Медведи<br>65%",
+            "Мёд<br>50%",
+            40,
+            {
+              linearGradient: { x1: 1, x2: 0, y1: 1, y2: 1 },
+              stops: [
+                [0, "rgba(139, 117, 186, 0.85)"],
+                [1, "rgba(151, 151, 151, 0.85)"],
+              ],
+            },
+          ],
+          [
+            "Медведи<br>65%",
+            "Малина<br>20%",
+            9,
+            {
+              linearGradient: { x1: 1, x2: 0, y1: 1, y2: 1 },
+              stops: [
+                [0, "rgba(221, 175, 211, 0.85)"],
+                [1, "rgba(151, 151, 151, 0.85)"],
+              ],
+            },
+          ],
+          [
+            "Медведи<br>65%",
+            "Яблоки<br>30%",
+            16,
+            {
+              linearGradient: { x1: 1, x2: 0, y1: 1, y2: 1 },
+              stops: [
+                [0, "rgba(126, 184, 191, 0.85)"],
+                [1, "rgba(151, 151, 151, 0.85)"],
+              ],
+            },
+          ],
+  
+          [
+            "Ежи<br>35%",
+            "Мёд<br>50%",
+            10,
+            {
+              linearGradient: { x1: 1, x2: 0, y1: 1, y2: 1 },
+              stops: [
+                [0, "rgba(139, 117, 186, 0.85)"],
+                [1, "rgba(119, 149, 77, 0.85)"],
+              ],
+            },
+          ],
+          [
+            "Ежи<br>35%",
+            "Малина<br>20%",
+            11,
+            {
+              linearGradient: { x1: 1, x2: 0, y1: 1, y2: 1 },
+              stops: [
+                [0, "rgba(221, 175, 211, 0.85)"],
+                [1, "rgba(119, 149, 77, 0.85)"],
+              ],
+            },
+          ],
+          [
+            "Ежи<br>35%",
+            "Яблоки<br>30%",
+            14,
+            {
+              linearGradient: { x1: 1, x2: 0, y1: 1, y2: 1 },
+              stops: [
+                [0, "rgba(126, 184, 191, 0.85)"],
+                [1, "rgba(119, 149, 77, 0.85)"],
+              ],
+            },
+          ],
         ],
         
         name: 'Annual consumption',
